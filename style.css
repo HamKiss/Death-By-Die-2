@@ -1,0 +1,128 @@
+
+  @font-face {
+    font-family: OldeEnglish;
+    src: url(fonts/OldeEnglish.ttf);
+  }
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(./bak.webp);
+    background-color: rgb(43 41 41 / 60%);
+    background-blend-mode: darken;
+    background-size: cover;
+    width: auto;
+}
+
+h1 {
+    font-family: OldeEnglish !important;
+}
+
+h2 {
+    margin-top: -13px !important;
+}
+
+.ladyInTheFooter {
+    height: 100% !important;
+    max-height: 300px !important;
+}
+
+iframe {
+    width: 100%;
+}
+
+.specialLink {
+    font-family: OldeEnglish !important;
+    font-size: 45px !important;
+}
+.miscImg {
+    max-width: 50% !important;
+    margin-left: 25%;
+}
+
+.sidenav {
+    background-color: #262525 !important;
+
+}
+
+.textBox {
+    background-color:#262525 !important;
+    padding: 10px !important;
+}
+
+h2 {
+    font-size: 24px !important;
+}
+
+.linkInText{
+    text-decoration: underline !important
+}
+
+.ticketLink {
+    text-decoration: underline;
+}
+
+#venue-change {
+   
+    text-decoration: underline;
+}
+
+.CSHEAD {
+    font-size: 200%;
+  
+}
+
+h3 {
+    font-size: 18px !important;
+}
+a {
+    color: white !important;
+    }
+.sidenav li a {
+color: white !important;
+}
+.sidenavimg{
+    width: -webkit-fill-available;
+}
+.nav-wrapper{
+    background-color: #262525;
+}
+
+footer {
+    background-color: #424141!important;
+}
+
+footer img {
+    max-height: 100px;
+}
+
+form {
+ max-width: 80%;
+}
+
+.infoPic{
+    width: 50%;
+}
+
+[type="radio"]:checked+span:after {
+    background-color: #4e4e4e !important;
+}
+
+
+
+[type="radio"]:checked+span:after {
+    border: 2px solid #4e4e4e !important;
+}
+
+.btn {
+    background-color: #4e4e4e !important;
+}
+
+nav .brand-logo {
+    font-size: 1.9rem !important;
+}
+
+.linkSpacer {
+    height: 20px;
+    display: block;
+}
