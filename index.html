@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Death By Die Fest</title>
-    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="stylesheet" href="style.css">-->
     <link rel="icon" type="image/x-icon" href="fav.ico">
 
     <!--Import Google Icon Font-->
@@ -16,9 +16,28 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
-
-<body>
+<style>
+    body {
+      background-image: url(./IMG_7789.webp);
+     
+    }
   
+    /* För mobiler (små skärmar) */
+    @media (max-width: 768px) {
+      body {
+        background-size: 100%;
+      }
+    }
+  
+    /* För datorer (större skärmar) */
+    @media (min-width: 769px) {
+      body {
+        background-size: 25%;
+      }
+    }
+  </style>
+<body >
+  <!--
     <div class="content">
         <div class="row">
             <span class="linkSpacer" id="dbd"></span>
@@ -40,6 +59,7 @@
             $(".sidenav").sidenav();
         });
     </script>
+    -->
 </body>
 
 
